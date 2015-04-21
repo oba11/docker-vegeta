@@ -1,7 +1,7 @@
 FROM progrium/busybox
 MAINTAINER Oluwaseun Obajobi <oba@obajobi.com>
 
-ENV VEGETA_VERSION 5.6.2
+ENV VEGETA_VERSION 5.6.3
 
 # Install Tar package
 RUN opkg-install tar
