@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Oluwaseun Obajobi <oba@obajobi.com>
 
-ENV VEGETA_VERSION 5.7.1
+ENV VEGETA_VERSION 5.8.0
 
 # Download Logstash Package
 ADD https://github.com/tsenart/vegeta/releases/download/v${VEGETA_VERSION}/vegeta-v${VEGETA_VERSION}-linux-amd64.tar.gz /tmp/vegeta.tar.gz
