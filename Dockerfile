@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Oluwaseun Obajobi <oba@obajobi.com>
 
-ENV VEGETA_VERSION 6.2.0
+ENV VEGETA_VERSION 6.1.1
 
 COPY ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 ADD https://github.com/tsenart/vegeta/releases/download/v${VEGETA_VERSION}/vegeta-v${VEGETA_VERSION}-linux-amd64.tar.gz /tmp/vegeta.tar.gz
