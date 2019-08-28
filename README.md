@@ -2,7 +2,7 @@
 
 Very slim docker container for vegeta. The image size is less than 20MB.
 
-### Latest Version: v6.3.0
+### Latest Version: v12.7.0
 
 ## Basic Vegeta Help Command
 
@@ -17,6 +17,8 @@ Very slim docker container for vegeta. The image size is less than 20MB.
   ```
 
 Older Vegeta versions tagged
+
+* docker run oba11/vegeta:12.7.0
 
 * docker run oba11/vegeta:6.2.0
 
